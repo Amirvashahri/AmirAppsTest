@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculator", "Calculator", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{38478EB9-57EB-4E0B-8C9B-D6BC6C93988B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notepad", "Notepad", "{5AC8A98A-6B0E-4228-8EAA-882B51F77909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notepad", "Notepad\Notepad.csproj", "{1F3415F5-C18D-48D9-8E38-C206DBDCBA18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{38478EB9-57EB-4E0B-8C9B-D6BC6C93988B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38478EB9-57EB-4E0B-8C9B-D6BC6C93988B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38478EB9-57EB-4E0B-8C9B-D6BC6C93988B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F3415F5-C18D-48D9-8E38-C206DBDCBA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3415F5-C18D-48D9-8E38-C206DBDCBA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3415F5-C18D-48D9-8E38-C206DBDCBA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3415F5-C18D-48D9-8E38-C206DBDCBA18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{38478EB9-57EB-4E0B-8C9B-D6BC6C93988B} = {329E6708-090C-450C-AD9B-B5E96687391A}
+		{1F3415F5-C18D-48D9-8E38-C206DBDCBA18} = {5AC8A98A-6B0E-4228-8EAA-882B51F77909}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B7EA0D5B-E679-4CF1-A9EF-582FD288D585}

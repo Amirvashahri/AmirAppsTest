@@ -1,0 +1,11 @@
+D:\Amir Codes\GIT\AmirTestApps\Notepad\bin\Debug\Notepad.exe.config
+D:\Amir Codes\GIT\AmirTestApps\Notepad\bin\Debug\Notepad.exe
+D:\Amir Codes\GIT\AmirTestApps\Notepad\bin\Debug\Notepad.pdb
+D:\Amir Codes\GIT\AmirTestApps\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+D:\Amir Codes\GIT\AmirTestApps\Notepad\obj\Debug\Notepad.csproj.SuggestedBindingRedirects.cache
+D:\Amir Codes\GIT\AmirTestApps\Notepad\obj\Debug\Notepad.Form1.resources
+D:\Amir Codes\GIT\AmirTestApps\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+D:\Amir Codes\GIT\AmirTestApps\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+D:\Amir Codes\GIT\AmirTestApps\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+D:\Amir Codes\GIT\AmirTestApps\Notepad\obj\Debug\Notepad.exe
+D:\Amir Codes\GIT\AmirTestApps\Notepad\obj\Debug\Notepad.pdb
