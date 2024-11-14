@@ -1,0 +1,11 @@
+D:\Test Git\AmirTestApps\Calculator\bin\Debug\Calculator.exe.config
+D:\Test Git\AmirTestApps\Calculator\bin\Debug\Calculator.exe
+D:\Test Git\AmirTestApps\Calculator\bin\Debug\Calculator.pdb
+D:\Test Git\AmirTestApps\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\Test Git\AmirTestApps\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
+D:\Test Git\AmirTestApps\Calculator\obj\Debug\Calculator.Calculator.resources
+D:\Test Git\AmirTestApps\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\Test Git\AmirTestApps\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\Test Git\AmirTestApps\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\Test Git\AmirTestApps\Calculator\obj\Debug\Calculator.exe
+D:\Test Git\AmirTestApps\Calculator\obj\Debug\Calculator.pdb
