@@ -1,0 +1,11 @@
+D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\bin\Debug\MathQuiz.exe.config
+D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\bin\Debug\MathQuiz.exe
+D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\bin\Debug\MathQuiz.pdb
+D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.csproj.AssemblyReference.cache
+D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.csproj.SuggestedBindingRedirects.cache
+D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.MathQuiz.resources
+D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.Properties.Resources.resources
+D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.csproj.GenerateResource.cache
+D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.csproj.CoreCompileInputs.cache
+D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.exe
+D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.pdb
