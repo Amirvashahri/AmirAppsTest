@@ -15,7 +15,12 @@
       "ProjectGuid": "e9f73d6b-2aa8-4982-9e5f-52dc6beaaf1d",
       "DisplayName": "Calculator",
       "ColorIndex": 1
+    },
+    "d18d91b6-7bd7-460a-87a6-aa8c526c8cfd": {
+      "ProjectGuid": "d18d91b6-7bd7-460a-87a6-aa8c526c8cfd",
+      "DisplayName": "MathQuiz",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

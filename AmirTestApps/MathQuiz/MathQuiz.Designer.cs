@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MathQuiz));
             this.startButton = new System.Windows.Forms.Button();
             this.quotient = new System.Windows.Forms.NumericUpDown();
             this.product = new System.Windows.Forms.NumericUpDown();
@@ -46,13 +47,13 @@
             this.timesLeftLabel = new System.Windows.Forms.Label();
             this.minusLeftLabel = new System.Windows.Forms.Label();
             this.sum = new System.Windows.Forms.NumericUpDown();
-            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.plusRightLabel = new System.Windows.Forms.Label();
             this.plusLeftLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.timeLabel = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.quotient)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.difference)).BeginInit();
@@ -62,6 +63,7 @@
             // startButton
             // 
             this.startButton.AutoSize = true;
+            this.startButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.startButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.startButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.startButton.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -78,7 +80,8 @@
             // 
             // quotient
             // 
-            this.quotient.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quotient.BackColor = System.Drawing.Color.SeaShell;
+            this.quotient.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quotient.Location = new System.Drawing.Point(314, 230);
             this.quotient.MaximumSize = new System.Drawing.Size(100, 0);
             this.quotient.Name = "quotient";
@@ -87,7 +90,8 @@
             // 
             // product
             // 
-            this.product.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.product.BackColor = System.Drawing.Color.SeaShell;
+            this.product.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.product.Location = new System.Drawing.Point(314, 180);
             this.product.MaximumSize = new System.Drawing.Size(100, 0);
             this.product.Name = "product";
@@ -96,7 +100,8 @@
             // 
             // difference
             // 
-            this.difference.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.difference.BackColor = System.Drawing.Color.SeaShell;
+            this.difference.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.difference.Location = new System.Drawing.Point(314, 130);
             this.difference.MaximumSize = new System.Drawing.Size(100, 0);
             this.difference.Name = "difference";
@@ -125,7 +130,7 @@
             // 
             // label14
             // 
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(248, 121);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(60, 50);
@@ -155,7 +160,7 @@
             // 
             // minusRightLabel
             // 
-            this.minusRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minusRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusRightLabel.Location = new System.Drawing.Point(182, 121);
             this.minusRightLabel.Name = "minusRightLabel";
             this.minusRightLabel.Size = new System.Drawing.Size(60, 50);
@@ -185,7 +190,7 @@
             // 
             // label8
             // 
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(116, 121);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 50);
@@ -215,7 +220,7 @@
             // 
             // minusLeftLabel
             // 
-            this.minusLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minusLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusLeftLabel.Location = new System.Drawing.Point(50, 121);
             this.minusLeftLabel.Name = "minusLeftLabel";
             this.minusLeftLabel.Size = new System.Drawing.Size(60, 50);
@@ -225,26 +230,17 @@
             // 
             // sum
             // 
-            this.sum.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sum.BackColor = System.Drawing.Color.SeaShell;
+            this.sum.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sum.Location = new System.Drawing.Point(314, 80);
             this.sum.MaximumSize = new System.Drawing.Size(100, 0);
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(100, 35);
             this.sum.TabIndex = 1;
             // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(116, 71);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 50);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "+";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label4
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(248, 71);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 50);
@@ -254,7 +250,7 @@
             // 
             // plusRightLabel
             // 
-            this.plusRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.plusRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusRightLabel.Location = new System.Drawing.Point(182, 71);
             this.plusRightLabel.Name = "plusRightLabel";
             this.plusRightLabel.Size = new System.Drawing.Size(60, 50);
@@ -264,8 +260,8 @@
             // 
             // plusLeftLabel
             // 
-            this.plusLeftLabel.BackColor = System.Drawing.Color.DimGray;
-            this.plusLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.plusLeftLabel.BackColor = System.Drawing.Color.Ivory;
+            this.plusLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusLeftLabel.Location = new System.Drawing.Point(50, 71);
             this.plusLeftLabel.Name = "plusLeftLabel";
             this.plusLeftLabel.Size = new System.Drawing.Size(60, 50);
@@ -276,16 +272,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(165, 6);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(149, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 25);
+            this.label1.Size = new System.Drawing.Size(117, 25);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Time Left";
+            this.label1.Text = "Time Left ";
             // 
             // timeLabel
             // 
-            this.timeLabel.BackColor = System.Drawing.Color.Red;
+            this.timeLabel.BackColor = System.Drawing.Color.MintCream;
             this.timeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeLabel.Location = new System.Drawing.Point(272, 5);
@@ -298,10 +295,23 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Ivory;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label5.Location = new System.Drawing.Point(116, 71);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 50);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "+";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // MathQuiz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Ivory;
             this.ClientSize = new System.Drawing.Size(484, 361);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.quotient);
@@ -327,6 +337,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.timeLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MathQuiz";
             this.Text = "MathQuiz";
             ((System.ComponentModel.ISupportInitialize)(this.quotient)).EndInit();
