@@ -5,7 +5,17 @@
       "ProjectGuid": "38478eb9-57eb-4e0b-8c9b-d6bc6c93988b",
       "DisplayName": "Calculator",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "e9f73d6b-2aa8-4982-9e5f-52dc6beaaf1d": {
+      "ProjectGuid": "e9f73d6b-2aa8-4982-9e5f-52dc6beaaf1d",
+      "DisplayName": "Calculator",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
