@@ -94,6 +94,7 @@ namespace MathQuiz
 
             // Start the timer.
             timeLeft = 30;
+           timeLabel.ForeColor = Color.Crimson;
             timeLabel.Text = "30 seconds";
             timer1.Start();
         }
