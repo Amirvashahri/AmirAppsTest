@@ -291,6 +291,7 @@
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(200, 30);
             this.timeLabel.TabIndex = 0;
+            this.timeLabel.Click += new System.EventHandler(this.timeLabel_Click);
             // 
             // timer1
             // 

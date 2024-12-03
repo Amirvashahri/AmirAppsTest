@@ -93,7 +93,7 @@ namespace MathQuiz
             quotient.Value = 0;
 
             // Start the timer.
-            timeLeft = 15;
+            timeLeft = 30;
             timeLabel.ForeColor = Color.Black;
             timeLabel.Text = "30 seconds";
             timer1.Start();
@@ -188,6 +188,11 @@ namespace MathQuiz
                 timeLabel.Visible = true;
             }
             
+        }
+
+        private void timeLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
