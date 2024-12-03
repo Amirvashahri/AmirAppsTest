@@ -93,8 +93,8 @@ namespace MathQuiz
             quotient.Value = 0;
 
             // Start the timer.
-            timeLeft = 30;
-           timeLabel.ForeColor = Color.Crimson;
+            timeLeft = 15;
+            timeLabel.ForeColor = Color.Black;
             timeLabel.Text = "30 seconds";
             timer1.Start();
         }
@@ -125,7 +125,7 @@ namespace MathQuiz
                                 "Congratulations!");
                 startButton.Enabled = true;
             }
-            else if (timeLeft > 0)
+            else if (timeLeft > 10)
             {
                 /* If CheckTheAnswer() returns false, keep counting
                  down. Decrease the time left by one second and 
@@ -134,11 +134,27 @@ namespace MathQuiz
                 timeLeft = timeLeft - 1;
                 timeLabel.Text = timeLeft + " seconds";
             }
+            else if (timeLeft <= 10  && timeLeft > 0)
+            { 
+                if(timeLeft == 10)
+                    timer2.Enabled = true;
+                /* If CheckTheAnswer() returns false, keep counting
+                 down. Decrease the time left by one second and 
+                 display the new time left by updating the 
+                 Time Left label. */
+                timeLabel.ForeColor= Color.Red;
+                timeLeft = timeLeft - 1;
+                timeLabel.Text = timeLeft + " seconds";
+                
+            }
             else
             {
                 /* If the user ran out of time, stop the timer, show
                  a MessageBox, and fill in the answers. */
+
                 timer1.Stop();
+                timer2.Stop();
+                timeLabel.Visible = true;
                 timeLabel.Text = "Time's up!";
                 MessageBox.Show("You didn't finish in time.", "Sorry!");
                 sum.Value = addend1 + addend2;
@@ -146,6 +162,7 @@ namespace MathQuiz
                 product.Value = multiplicand * multiplier;
                 quotient.Value = dividend / divisor;
                 startButton.Enabled = true;
+                
             }
         }
         private void answer_Enter(object sender, EventArgs e)
@@ -158,6 +175,19 @@ namespace MathQuiz
                 int lengthOfAnswer = answerBox.Value.ToString().Length;
                 answerBox.Select(0, lengthOfAnswer);
             }
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            if (timeLabel.Visible)
+            {
+                timeLabel.Visible = false;
+            }
+            else
+            {
+                timeLabel.Visible = true;
+            }
+            
         }
     }
 }

@@ -54,6 +54,7 @@
             this.timeLabel = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label5 = new System.Windows.Forms.Label();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.quotient)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.difference)).BeginInit();
@@ -284,7 +285,7 @@
             // timeLabel
             // 
             this.timeLabel.BackColor = System.Drawing.Color.MintCream;
-            this.timeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timeLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeLabel.Location = new System.Drawing.Point(272, 5);
             this.timeLabel.Name = "timeLabel";
@@ -307,6 +308,11 @@
             this.label5.TabIndex = 3;
             this.label5.Text = "+";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // timer2
+            // 
+            this.timer2.Interval = 200;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // MathQuiz
             // 
@@ -376,6 +382,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label timeLabel;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
     }
 }
 

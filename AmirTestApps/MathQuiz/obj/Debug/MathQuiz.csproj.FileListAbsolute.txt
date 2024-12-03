@@ -9,3 +9,14 @@ D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.csproj.GenerateR
 D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.csproj.CoreCompileInputs.cache
 D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.exe
 D:\My_Codes_On_GIT\Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.pdb
+D:\Amir_Git\AmirTestApps\MathQuiz\bin\Debug\MathQuiz.exe.config
+D:\Amir_Git\AmirTestApps\MathQuiz\bin\Debug\MathQuiz.exe
+D:\Amir_Git\AmirTestApps\MathQuiz\bin\Debug\MathQuiz.pdb
+D:\Amir_Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.csproj.AssemblyReference.cache
+D:\Amir_Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.csproj.SuggestedBindingRedirects.cache
+D:\Amir_Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.MathQuiz.resources
+D:\Amir_Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.Properties.Resources.resources
+D:\Amir_Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.csproj.GenerateResource.cache
+D:\Amir_Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.csproj.CoreCompileInputs.cache
+D:\Amir_Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.exe
+D:\Amir_Git\AmirTestApps\MathQuiz\obj\Debug\MathQuiz.pdb

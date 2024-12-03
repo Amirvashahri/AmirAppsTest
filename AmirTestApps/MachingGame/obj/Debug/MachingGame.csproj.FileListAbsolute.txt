@@ -9,3 +9,14 @@ D:\My_Codes_On_GIT\Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.csproj.Gen
 D:\My_Codes_On_GIT\Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.csproj.CoreCompileInputs.cache
 D:\My_Codes_On_GIT\Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.exe
 D:\My_Codes_On_GIT\Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.pdb
+D:\Amir_Git\AmirTestApps\MachingGame\bin\Debug\MachingGame.exe.config
+D:\Amir_Git\AmirTestApps\MachingGame\bin\Debug\MachingGame.exe
+D:\Amir_Git\AmirTestApps\MachingGame\bin\Debug\MachingGame.pdb
+D:\Amir_Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.csproj.AssemblyReference.cache
+D:\Amir_Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.csproj.SuggestedBindingRedirects.cache
+D:\Amir_Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.MachingGame.resources
+D:\Amir_Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.Properties.Resources.resources
+D:\Amir_Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.csproj.GenerateResource.cache
+D:\Amir_Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.csproj.CoreCompileInputs.cache
+D:\Amir_Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.exe
+D:\Amir_Git\AmirTestApps\MachingGame\obj\Debug\MachingGame.pdb
