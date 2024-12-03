@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MathQuiz", "MathQuiz", "{12
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathQuiz", "MathQuiz\MathQuiz.csproj", "{D18D91B6-7BD7-460A-87A6-AA8C526C8CFD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MachingGame", "MachingGame", "{EA7CE6EE-F67A-4C03-A5E1-41B04DF74F85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachingGame", "MachingGame\MachingGame.csproj", "{B1CF5DE6-9BE7-470C-A33E-0653B9B0AE17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{D18D91B6-7BD7-460A-87A6-AA8C526C8CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D18D91B6-7BD7-460A-87A6-AA8C526C8CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D18D91B6-7BD7-460A-87A6-AA8C526C8CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CF5DE6-9BE7-470C-A33E-0653B9B0AE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CF5DE6-9BE7-470C-A33E-0653B9B0AE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CF5DE6-9BE7-470C-A33E-0653B9B0AE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CF5DE6-9BE7-470C-A33E-0653B9B0AE17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{1F3415F5-C18D-48D9-8E38-C206DBDCBA18} = {5AC8A98A-6B0E-4228-8EAA-882B51F77909}
 		{E9F73D6B-2AA8-4982-9E5F-52DC6BEAAF1D} = {329E6708-090C-450C-AD9B-B5E96687391A}
 		{D18D91B6-7BD7-460A-87A6-AA8C526C8CFD} = {126E6E42-1AF1-4826-B94C-BB0BB7FFAF0E}
+		{B1CF5DE6-9BE7-470C-A33E-0653B9B0AE17} = {EA7CE6EE-F67A-4C03-A5E1-41B04DF74F85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B7EA0D5B-E679-4CF1-A9EF-582FD288D585}

@@ -20,7 +20,12 @@
       "ProjectGuid": "d18d91b6-7bd7-460a-87a6-aa8c526c8cfd",
       "DisplayName": "MathQuiz",
       "ColorIndex": 2
+    },
+    "b1cf5de6-9be7-470c-a33e-0653b9b0ae17": {
+      "ProjectGuid": "b1cf5de6-9be7-470c-a33e-0653b9b0ae17",
+      "DisplayName": "MachingGame",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
