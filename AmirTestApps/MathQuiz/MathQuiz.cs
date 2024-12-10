@@ -135,17 +135,13 @@ namespace MathQuiz
                 timeLabel.Text = timeLeft + " seconds";
             }
             else if (timeLeft <= 10  && timeLeft > 0)
-            { 
-                if(timeLeft == 10)
+            {
+                if (timeLeft == 10)
                     timer2.Enabled = true;
-                /* If CheckTheAnswer() returns false, keep counting
-                 down. Decrease the time left by one second and 
-                 display the new time left by updating the 
-                 Time Left label. */
                 timeLabel.ForeColor= Color.Red;
                 timeLeft = timeLeft - 1;
                 timeLabel.Text = timeLeft + " seconds";
-                
+
             }
             else
             {
@@ -162,7 +158,7 @@ namespace MathQuiz
                 product.Value = multiplicand * multiplier;
                 quotient.Value = dividend / divisor;
                 startButton.Enabled = true;
-                
+
             }
         }
         private void answer_Enter(object sender, EventArgs e)
@@ -187,7 +183,7 @@ namespace MathQuiz
             {
                 timeLabel.Visible = true;
             }
-            
+
         }
 
         private void timeLabel_Click(object sender, EventArgs e)
