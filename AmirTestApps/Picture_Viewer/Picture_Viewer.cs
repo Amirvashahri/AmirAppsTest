@@ -21,9 +21,11 @@ namespace Picture_Viewer
         {
             // Show the Open File dialog. If the user clicks OK, load the
             // picture that the user chose.
-            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png|BMP Files (*.bmp)|*.bmp";
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                pictureBox1.Load(openFileDialog1.FileName);
+                pictureBox1.Load(openFileDialog.FileName);
             }
         }
 
@@ -57,6 +59,18 @@ namespace Picture_Viewer
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             else
                 pictureBox1.SizeMode = PictureBoxSizeMode.Normal;
+        }
+
+        private void Picture_Viewer_Load(object sender, EventArgs e)
+        {
+            this.Focus();
+        }
+
+        private void Picture_Viewer_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+            if (e.KeyChar == 'O' || e.KeyChar == 'o')
+                showButton_Click(sender,null);
         }
     }
 }

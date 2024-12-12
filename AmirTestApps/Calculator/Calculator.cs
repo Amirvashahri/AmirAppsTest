@@ -22,8 +22,42 @@ namespace Calculator
             InitializeComponent();
             this.KeyPreview = true;  // Allow the form to capture keyboard input
             this.textBox1.KeyDown += new KeyEventHandler(txtDisplay_KeyDown);  // Make sure this is attached
+            this.textBox1.KeyUp += new KeyEventHandler(txtDisplay_KeyuP);  // Make sure this is attached
+
         }
 
+        private void txtDisplay_KeyuP(object sender, KeyEventArgs e)
+        {
+            // Check if the "C" key is pressed (to clear the TextBox)
+            if (e.KeyCode == Keys.C)
+            {
+                // Clear the TextBox when "C" is pressed
+                textBox1.Clear();
+            }
+            else
+            {
+                if (!char.IsControl((char)e.KeyValue) && !char.IsDigit((char)e.KeyValue) && (e.KeyValue != '.'))
+                {
+                    if ((char)e.KeyValue != 187 && (char)e.KeyValue != 111 && (char)e.KeyValue != 189 && (char)e.KeyValue != 106)
+                    {
+                        textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1, 1);
+                        textBox1.SelectionStart = textBox1.Text.Length;
+                        textBox1.SelectionLength = 0;
+                    }
+
+                }
+
+                //// only allow one decimal point
+                //if ((e.KeyValue == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+                //{
+                //    textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1, 1);
+                //    textBox1.SelectionStart = textBox1.Text.Length;
+                //    textBox1.SelectionLength = 0;
+                //}
+            }
+
+
+        }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -269,13 +303,6 @@ namespace Calculator
                 }
 
 
-                // Check if the "C" key is pressed (to clear the TextBox)
-                if (e.KeyCode == Keys.C)
-                {
-                    // Clear the TextBox when "C" is pressed
-                    textBox1.Clear();
-                }
-
                 // Check if Backspace key is pressed to remove the last character
                 if (e.KeyCode == Keys.Back)
                 {
@@ -312,6 +339,11 @@ namespace Calculator
                 // 4. If an error occurs during evaluation, throw an exception
                 throw new InvalidOperationException("Error in evaluating the expression: " + ex.Message);
             }
+        }
+
+        private void Calculator_Load(object sender, EventArgs e)
+        {
+            textBox1.Focus();
         }
 
 

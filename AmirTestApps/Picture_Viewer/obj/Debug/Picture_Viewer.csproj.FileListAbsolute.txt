@@ -9,3 +9,14 @@ D:\My_Codes_On_GIT\Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.cspr
 D:\My_Codes_On_GIT\Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.csproj.CoreCompileInputs.cache
 D:\My_Codes_On_GIT\Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.exe
 D:\My_Codes_On_GIT\Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.pdb
+D:\Amir_Git\AmirTestApps\Picture_Viewer\bin\Debug\Picture_Viewer.exe.config
+D:\Amir_Git\AmirTestApps\Picture_Viewer\bin\Debug\Picture_Viewer.exe
+D:\Amir_Git\AmirTestApps\Picture_Viewer\bin\Debug\Picture_Viewer.pdb
+D:\Amir_Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.csproj.AssemblyReference.cache
+D:\Amir_Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.csproj.SuggestedBindingRedirects.cache
+D:\Amir_Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.Picture_Viewer.resources
+D:\Amir_Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.Properties.Resources.resources
+D:\Amir_Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.csproj.GenerateResource.cache
+D:\Amir_Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.csproj.CoreCompileInputs.cache
+D:\Amir_Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.exe
+D:\Amir_Git\AmirTestApps\Picture_Viewer\obj\Debug\Picture_Viewer.pdb
