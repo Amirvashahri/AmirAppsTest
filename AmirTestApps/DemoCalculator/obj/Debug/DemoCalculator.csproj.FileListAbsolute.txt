@@ -1,0 +1,8 @@
+D:\My_Codes_On_GIT\AmirTestApps\DemoCalculator\bin\Debug\DemoCalculator.dll
+D:\My_Codes_On_GIT\AmirTestApps\DemoCalculator\bin\Debug\DemoCalculator.pdb
+D:\My_Codes_On_GIT\AmirTestApps\DemoCalculator\obj\Debug\DemoCalculator.csproj.AssemblyReference.cache
+D:\My_Codes_On_GIT\AmirTestApps\DemoCalculator\obj\Debug\DemoCalculator.DemoCalculator.resources
+D:\My_Codes_On_GIT\AmirTestApps\DemoCalculator\obj\Debug\DemoCalculator.csproj.GenerateResource.cache
+D:\My_Codes_On_GIT\AmirTestApps\DemoCalculator\obj\Debug\DemoCalculator.csproj.CoreCompileInputs.cache
+D:\My_Codes_On_GIT\AmirTestApps\DemoCalculator\obj\Debug\DemoCalculator.dll
+D:\My_Codes_On_GIT\AmirTestApps\DemoCalculator\obj\Debug\DemoCalculator.pdb

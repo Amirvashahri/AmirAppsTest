@@ -20,3 +20,14 @@ D:\Amir_Git\AmirTestApps\Calculator\obj\Debug\Calculator.csproj.GenerateResource
 D:\Amir_Git\AmirTestApps\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 D:\Amir_Git\AmirTestApps\Calculator\obj\Debug\Calculator.exe
 D:\Amir_Git\AmirTestApps\Calculator\obj\Debug\Calculator.pdb
+D:\My_Codes_On_GIT\AmirTestApps\Calculator\bin\Debug\Calculator.exe.config
+D:\My_Codes_On_GIT\AmirTestApps\Calculator\bin\Debug\Calculator.exe
+D:\My_Codes_On_GIT\AmirTestApps\Calculator\bin\Debug\Calculator.pdb
+D:\My_Codes_On_GIT\AmirTestApps\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\My_Codes_On_GIT\AmirTestApps\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
+D:\My_Codes_On_GIT\AmirTestApps\Calculator\obj\Debug\Calculator.Calculator.resources
+D:\My_Codes_On_GIT\AmirTestApps\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\My_Codes_On_GIT\AmirTestApps\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\My_Codes_On_GIT\AmirTestApps\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\My_Codes_On_GIT\AmirTestApps\Calculator\obj\Debug\Calculator.exe
+D:\My_Codes_On_GIT\AmirTestApps\Calculator\obj\Debug\Calculator.pdb
