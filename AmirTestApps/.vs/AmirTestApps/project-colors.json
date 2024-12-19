@@ -25,7 +25,12 @@
       "ProjectGuid": "b1cf5de6-9be7-470c-a33e-0653b9b0ae17",
       "DisplayName": "MachingGame",
       "ColorIndex": 3
+    },
+    "002c46f5-c802-44c6-b84b-2af626abfc1e": {
+      "ProjectGuid": "002c46f5-c802-44c6-b84b-2af626abfc1e",
+      "DisplayName": "DemoCalculator",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
