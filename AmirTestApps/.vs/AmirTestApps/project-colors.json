@@ -30,7 +30,12 @@
       "ProjectGuid": "002c46f5-c802-44c6-b84b-2af626abfc1e",
       "DisplayName": "DemoCalculator",
       "ColorIndex": 4
+    },
+    "9e032a62-91c6-4f34-80cb-edd7aae95478": {
+      "ProjectGuid": "9e032a62-91c6-4f34-80cb-edd7aae95478",
+      "DisplayName": "DemoCalculator",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }
