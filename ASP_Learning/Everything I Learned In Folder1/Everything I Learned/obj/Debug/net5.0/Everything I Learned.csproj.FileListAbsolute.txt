@@ -1,0 +1,39 @@
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\bin\Debug\net5.0\appsettings.Development.json
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\bin\Debug\net5.0\appsettings.json
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\bin\Debug\net5.0\Everything I Learned.exe
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\bin\Debug\net5.0\Everything I Learned.deps.json
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\bin\Debug\net5.0\Everything I Learned.runtimeconfig.json
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\bin\Debug\net5.0\Everything I Learned.runtimeconfig.dev.json
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\bin\Debug\net5.0\Everything I Learned.dll
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\bin\Debug\net5.0\ref\Everything I Learned.dll
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\bin\Debug\net5.0\Everything I Learned.pdb
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\bin\Debug\net5.0\Everything I Learned.Views.dll
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\bin\Debug\net5.0\Everything I Learned.Views.pdb
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.csproj.AssemblyReference.cache
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.AssemblyInfoInputs.cache
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.AssemblyInfo.cs
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.csproj.CoreCompileInputs.cache
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.MvcApplicationPartsAssemblyInfo.cache
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.RazorAssemblyInfo.cache
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.RazorAssemblyInfo.cs
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\scopedcss\bundle\Everything I Learned.styles.css
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\staticwebassets\Everything I Learned.StaticWebAssets.Manifest.cache
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.TagHelpers.input.cache
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.TagHelpers.output.cache
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.RazorCoreGenerate.cache
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.RazorTargetAssemblyInfo.cache
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.RazorTargetAssemblyInfo.cs
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.Views.pdb
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.dll
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\ref\Everything I Learned.dll
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.pdb
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.genruntimeconfig.cache
+D:\My_Sample_Codes\C# learning\Everything I Learned\Everything I Learned\obj\Debug\net5.0\Everything I Learned.csproj.CopyComplete

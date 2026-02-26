@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "439395fd-e65d-492f-89eb-3d370ce7e518": {
+      "ProjectGuid": "439395fd-e65d-492f-89eb-3d370ce7e518",
+      "DisplayName": "Everything I Learned",
+      "ColorIndex": 0
+    },
+    "19286878-b539-49d1-b5c1-7e95afc13106": {
+      "ProjectGuid": "19286878-b539-49d1-b5c1-7e95afc13106",
+      "DisplayName": "Middleware",
+      "ColorIndex": 1
+    },
+    "bb7d933e-8187-4ef7-a076-4aab62e5c6dc": {
+      "ProjectGuid": "bb7d933e-8187-4ef7-a076-4aab62e5c6dc",
+      "DisplayName": "ErrorHandling",
+      "ColorIndex": 2
+    },
+    "d0a7ad86-0262-43ec-a3fe-e5d87c37d5b7": {
+      "ProjectGuid": "d0a7ad86-0262-43ec-a3fe-e5d87c37d5b7",
+      "DisplayName": "Logger",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
