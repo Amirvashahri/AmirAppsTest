@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #111;
+}
+
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+
+.hero {
+  padding: 80px 0;
+}
+
+.hero .container {
+  display: flex;
+  /* align-items: center; */
+  gap: 150px;
+}
+
+
+.hero-left {
+  flex: 1;
+}
+
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #eef2ff;
+  color: #1A56DB;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+
+.title {
+  font-family: "Newsreader", serif;
+  font-size: 72px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.blue {
+  color: #1A56DB;
+  font-style: italic;
+}
+
+
+.desc {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #6b7280;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+}
+
+.btn-primary {
+  background: #1A56DB;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-secondary {
+  border: 1px solid #ddd;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #111;
+}
+
+
+.hero-right img {
+  width: 500px;
+  border-radius: 16px;
+}
+
+.company-div{
+background-color: #F2F1EF solid;
+opacity: 100%;
+    height: 200px;
+    width: 202%;
+    padding: 45px;
+    color: white;
+    margin: 0px 0px 0px -260px;
+
+}
+
+.company{
+  margin: 200px;
+}
+
+.company-title{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 15px;
+  font-weight: 10;
+  color: #3f4349;
+  
+}
+
+.company-logo{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 54px;
+}
+
+.title-2{
+  display: flex;
+  font-size: 36px;
+  font-weight: 100;
+  color: #2b2c2e;
+  font-family: "Newsreader", serif;
+  line-height: 1.1;
+  background: linear-gradient(#1A56DB, #1A56DB);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 30% 4px; 
+  padding-bottom: 90px; 
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.badge2{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #eef2ff;
+  color: #1A56DB;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.badge2-description{
+  font-size: 18px;
+  font-weight: 100;
+  color: #555;
+  line-height: 1.4;
+
+}
+
+.title-3{
+  display: flex;
+  font-weight: 100;
+  color: #111;
+  font-family: "Newsreader", serif;
+}
+
+.picture-2{
+  display: inline-block;
+  position: relative;
+  /* max-width: 400px; */
+  transform: scale(1.2);
+}
+
+.picture-2 img{
+  /* width: 100%; */
+  display: block;
+  /* object-fit: cover;
+  position: static; */
+  /* z-index: auto; */
+}
+
+.image-text{
+  display: flex;
+  font-size: 20px;
+  gap: 10px;
+  position: absolute;
+  top: 10%;
+  left: 9%;
+  color: rgb(78, 139, 20);
+  text-align: center;
+  background-color: rgb(223, 223, 223);
+  padding: 14px;
+  border-radius: 999px;
+  font-size: 15px;
+}
+
+.image-title{
+  display: flex;
+  font-family: "Newsreader", serif;
+  font-weight: 100;
+  font-size: 32px;
+  gap: 10px;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: rgb(223, 223, 223);
+}
+
+.image-desc{
+  display: flex;
+  font-weight: 100;
+  font-size: 16px;
+  gap: 10px;
+  position: absolute;
+  top: 44%;
+  left: 10%;
+  color: rgb(223, 223, 223);
+  line-height: 1.7;
+}
+
+.badge-3{
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  background-color: #0f766e;
+  color: lightgray;
+  font-weight: 100;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.picture-3{
+  display: flex;
+  margin: 170px 0px 0px 33px;
+}
+.Features{
+  display: flex;
+  gap: 10px;
+  height: 200px;
+  margin-top: 50px;
+}
+.Features-1{
+   background-color: #f4a016;
+  width: 100px; 
+  height: 100%;
+  border-radius: 8px;
+  padding: 170px;
+}
+
+.Features-1:hover{
+  background-color: #f4a016;
+}
