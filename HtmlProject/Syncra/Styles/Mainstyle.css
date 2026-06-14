@@ -1,7 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 body {
@@ -254,7 +254,7 @@ opacity: 100%;
   display: flex;
   margin: 170px 0px 0px 33px;
 }
-.Features{
+/* .Features{
   display: flex;
   gap: 10px;
   height: 200px;
@@ -270,4 +270,74 @@ opacity: 100%;
 
 .Features-1:hover{
   background-color: #f4a016;
+} */
+
+/* .badge-4{
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  background-color: #0f766e;
+  color: lightgray;
+  font-weight: 100;
+  font-size: 20px;
+  padding: 20px;
+  
+} */
+.container-2{
+  max-width: 1470px;
+  margin: 100px auto;
+  /* padding: 0 285px; */
+  display: flex;
+  /* align-items: center; */
+  gap: 40px;
+  justify-content: flex-start;
+}
+.card{
+    width:405px;
+    /* background:#F2A313; */
+    padding:42px;
+    border-radius:30px;
+    /* margin-top: 110px; */
+    border: 1px solid #e4e3df;
+}
+
+.badge-4{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:12px 18px;
+    /* background:#F7F1E8; */
+    border-radius:999px;
+    margin-bottom:32px;
+}
+
+.h2-card1{
+    font-family: "Newsreader", serif;
+    font-weight: 100;
+    font-size:33px;
+    line-height:1.05;
+    margin-bottom:32px;
+    color:#000;
+}
+
+.p-card1{
+    max-width:360px;
+    font-size:19px;
+    line-height:1.8;
+    color:#111;
+}
+
+.card:first-child:hover{
+ background-color: #f4a016;
+}
+
+.card:nth-child(2):hover{
+  background-color: green;
+}
+
+.card:last-child:hover{
+  background-color: #c53535;
 }
