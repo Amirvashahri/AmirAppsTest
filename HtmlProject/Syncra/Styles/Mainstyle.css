@@ -341,3 +341,111 @@ opacity: 100%;
 .card:last-child:hover{
   background-color: #c53535;
 }
+
+/* .Blue-back{
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #1A56DB;
+  width: 100%;
+}
+.h2-blue{
+    font-family: "Newsreader", serif;
+    font-weight: 500;
+    font-size: 20px;
+} */
+
+
+.stats-section{
+    max-width:1500px;
+    margin:0 auto;
+    padding:80px 40px;
+    background:#EEF2FB;
+    text-align:center;
+}
+
+.stats-section h2{
+    font-size:56px;
+    margin-bottom:20px;
+    font-family: "Newsreader", serif;
+    font-weight: 500;
+}
+
+.subtitle{
+    font-size:18px;
+    color:#666;
+    max-width:700px;
+    margin:0 auto 60px;
+    line-height:1.8;
+}
+
+.stats-container{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    flex-wrap:wrap;
+    margin-bottom:50px;
+}
+
+.stat-card{
+    width:260px;
+    height:120px;
+    background:white;
+    border:1px solid #e3e3e3;
+    border-radius:14px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+/* .highlight{
+    background:#F8F2E8;
+} */
+ .stat-card:hover{
+    background:#F8F2E8;
+ }
+
+.stat-card h3{
+    color:#2456E5;
+    font-size:54px;
+    margin-bottom:10px;
+    font-family: "Newsreader", serif;
+}
+
+.stat-card span{
+    font-size:18px;
+    color:#222;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.btn-primary{
+    background:#2456E5;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.btn-secondary{
+    background:white;
+    border:1px solid #d8d8d8;
+    padding:15px 30px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.note{
+    font-style:italic;
+    color:#444;
+}
