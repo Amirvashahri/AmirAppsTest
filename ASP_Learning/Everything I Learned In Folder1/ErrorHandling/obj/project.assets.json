@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vashahri\\.nuget\\packages\\": {},
+    "C:\\Users\\pc\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My_Sample_Codes\\New Git\\ASP_Learning\\Everything I Learned In Folder1\\ErrorHandling\\ErrorHandling.csproj",
+      "projectUniqueName": "F:\\Html Codes\\Vscode\\GIT\\AmirAppsTest\\ASP_Learning\\Everything I Learned In Folder1\\ErrorHandling\\ErrorHandling.csproj",
       "projectName": "ErrorHandling",
-      "projectPath": "D:\\My_Sample_Codes\\New Git\\ASP_Learning\\Everything I Learned In Folder1\\ErrorHandling\\ErrorHandling.csproj",
-      "packagesPath": "C:\\Users\\vashahri\\.nuget\\packages\\",
-      "outputPath": "D:\\My_Sample_Codes\\New Git\\ASP_Learning\\Everything I Learned In Folder1\\ErrorHandling\\obj\\",
+      "projectPath": "F:\\Html Codes\\Vscode\\GIT\\AmirAppsTest\\ASP_Learning\\Everything I Learned In Folder1\\ErrorHandling\\ErrorHandling.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "F:\\Html Codes\\Vscode\\GIT\\AmirAppsTest\\ASP_Learning\\Everything I Learned In Folder1\\ErrorHandling\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\vashahri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -46,7 +46,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net5.0": {
@@ -57,7 +63,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -69,7 +76,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
