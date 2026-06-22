@@ -1,0 +1,30 @@
+<header class="header">
+  <div class="container">
+
+    <img src="/Logos/Main Page/Logo.svg" class="logo">
+
+    <nav class="nav">
+      <a href="/Pages/Main.html">SOLUTIONS</a>
+      <a href="/Pages/PLATFORM.html">PLATFORM</a>
+      <a href="#">RESOURCES</a>
+      <a href="#">CHANGELOG</a>
+      <a href="#">PRICING</a>
+    </nav>
+
+    <div class="auth">
+      <a href="#" class="signin">Sign in</a>
+      <a href="#" class="signup">Sign up</a>
+    </div>
+
+  </div>
+  <script>
+const links = document.querySelectorAll('.nav a');
+
+links.forEach(link => {
+  link.addEventListener('click', function() {
+    links.forEach(l => l.classList.remove('active'));
+    this.classList.add('active');
+  });
+});
+</script>
+</header>
