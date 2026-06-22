@@ -700,3 +700,104 @@ details[open] summary{
     padding:0 30px;
 }
 
+
+.newsletter{
+    max-width:1140px;
+    margin:120px auto 0;
+
+    padding:70px 40px;
+
+    border-radius:18px;
+
+    text-align:center;
+    color:#fff;
+
+    position:relative;
+    overflow:hidden;
+
+    background:
+    radial-gradient(
+        circle at center bottom,
+        rgba(255, 166, 0, 0.25),
+        transparent 25%
+    ),
+    linear-gradient(
+        90deg,
+        #163339 0%,
+        #0b1019 35%,
+        #1a2232 100%
+    );
+}
+
+.newsletter span{
+    display:block;
+
+    font-size:12px;
+    letter-spacing:1px;
+
+    opacity:.8;
+}
+
+.newsletter h2{
+    margin-top:12px;
+
+    font-size:52px;
+    font-weight:500;
+
+    font-family:Georgia, serif;
+}
+
+.newsletter p{
+    max-width:700px;
+
+    margin:20px auto 0;
+
+    color:#d7d7d7;
+
+    font-size:16px;
+    line-height:1.7;
+}
+
+.newsletter-form{
+    margin-top:32px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+}
+
+.newsletter-form input{
+    width:340px;
+    height:56px;
+
+    padding:0 18px;
+
+    border:none;
+    border-radius:10px;
+
+    outline:none;
+
+    font-size:15px;
+}
+
+.newsletter-form button{
+    width:130px;
+    height:56px;
+
+    border:1px solid rgba(255,255,255,.5);
+    border-radius:10px;
+
+    background:transparent;
+    color:white;
+
+    font-size:16px;
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.newsletter-form button:hover{
+    background:white;
+    color:black;
+}

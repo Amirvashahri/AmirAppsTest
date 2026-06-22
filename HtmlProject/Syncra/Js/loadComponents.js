@@ -23,3 +23,10 @@ fetch('/Pages/header.html')
     });
 
   });
+
+fetch('/Pages/footer.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('footer').innerHTML = data;
+  })
+  .catch(error => console.error('Footer Error:', error));
