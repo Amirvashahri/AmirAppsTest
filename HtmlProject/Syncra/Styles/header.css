@@ -58,40 +58,160 @@ body {
 
 .nav {
   display: flex;
+  align-items: center;
   gap: 32px;
 }
 
-.nav a {
+.nav a,
+.nav-dropdown-btn {
+
   position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
   text-decoration: none;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+
   color: #555;
+
   font-size: 14px;
+  font-family: inherit;
+
   padding-bottom: 6px;
-  transition: color 0.3s ease;
+
+  transition: color .3s ease;
+
 }
 
-.nav a::after {
+.nav a::after,
+.nav-dropdown-btn::after {
+
   content: "";
+
   position: absolute;
+
   left: 0;
   bottom: 0;
+
   width: 100%;
   height: 2px;
+
   background: #1A56DB;
 
   transform: scaleX(0);
   transform-origin: center;
-  transition: transform 0.3s ease;
+
+  transition: transform .3s ease;
+
 }
 
 .nav a.active,
-.nav a:hover {
+.nav a:hover,
+.nav-dropdown.active .nav-dropdown-btn,
+.nav-dropdown-btn:hover {
+
   color: #1A56DB;
+
 }
 
 .nav a.active::after,
-.nav a:hover::after {
+.nav a:hover::after,
+.nav-dropdown.active .nav-dropdown-btn::after,
+.nav-dropdown-btn:hover::after {
+
   transform: scaleX(1);
+
+}
+
+.nav-dropdown{
+
+  position: relative;
+
+}
+
+.nav-dropdown-btn img{
+
+  width: 14px;
+  height: 14px;
+
+  transition: transform .3s ease;
+
+}
+
+.nav-dropdown.active .nav-dropdown-btn img{
+
+  transform: rotate(180deg);
+
+}
+
+.nav-dropdown-menu{
+
+  position: absolute;
+
+  top: calc(100% + 18px);
+  left: 0;
+
+  width: 220px;
+
+  background: white;
+
+  border: 1px solid #e8e8e8;
+
+  border-radius: 14px;
+
+  box-shadow: 0 15px 40px rgba(0,0,0,.08);
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(12px);
+
+  transition: .25s ease;
+
+  z-index: 1000;
+
+}
+
+.nav-dropdown.active .nav-dropdown-menu{
+
+  opacity: 1;
+  visibility: visible;
+
+  transform: translateY(0);
+
+}
+
+.nav-dropdown-menu a{
+
+  text-decoration: none;
+
+  color: #555;
+
+  padding: 12px 14px;
+
+  border-radius: 8px;
+
+  transition: .25s;
+
+}
+
+.nav-dropdown-menu a:hover{
+
+  background: #F5F7FB;
+
+  color: #1A56DB;
+
 }
 
 .auth {
