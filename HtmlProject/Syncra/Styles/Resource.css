@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    color:#111;
+}
+
+/* .hero{
+    padding:80px 0 120px;
+} */
+
+.craft-section{
+
+    max-width:1500px;
+    margin:120px auto;
+    padding:0 60px;
+
+}
+
+.craft-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:80px;
+
+    margin-bottom:50px;
+
+}
+
+.craft-title{
+
+    max-width:650px;
+
+}
+
+.craft-badge{
+
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+
+    padding:8px 14px;
+
+    background:#EEF4FF;
+
+    border-radius:999px;
+
+    color:#2563EB;
+
+    font-size:13px;
+
+    margin-bottom:18px;
+
+}
+
+.craft-badge img{
+
+    width:14px;
+
+}
+
+.craft-title h2{
+
+    font-family:"Newsreader",serif;
+
+    font-size:82px;
+
+    font-weight:400;
+
+    line-height:1;
+
+}
+
+.craft-title h2 span{
+
+    display:inline-block;
+
+    color:#2563EB;
+
+    font-style:italic;
+
+    border-bottom:4px solid #2563EB;
+
+    padding-bottom:4px;
+
+}
+
+.craft-description{
+
+    max-width:420px;
+
+    margin-top:40px;
+
+}
+
+.craft-description p{
+
+    color:#666;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+}
+
+.craft-image{
+
+    position:relative;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+}
+
+.craft-image img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:18px;
+
+}
+
+.craft-image::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    right:0;
+    bottom:0;
+
+    height:180px;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.65),
+        rgba(0,0,0,.35),
+        rgba(0,0,0,0)
+    );
+
+    pointer-events:none;
+
+}
+
+.craft-card{
+
+    position:absolute;
+
+    left:28px;
+    bottom:40px;
+
+    z-index:2;
+
+    padding:18px 22px;
+
+    border-radius:16px;
+
+    background:rgba(25,25,25,.45);
+
+    backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    color:white;
+
+}
+
+.craft-card span{
+
+    display:block;
+
+    font-size:13px;
+
+    color:#ddd;
+
+    margin-bottom:8px;
+
+}
+
+.craft-card h4{
+
+    font-size:28px;
+
+    font-weight:600;
+
+}
