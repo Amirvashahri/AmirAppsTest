@@ -4,6 +4,27 @@ fetch('/Pages/header.html')
 
     document.getElementById('header').innerHTML = data;
 
+    const announcement = document.querySelector(".announcement");
+const closeBtn = document.querySelector(".announcement-close");
+
+if (announcement && closeBtn) {
+
+    closeBtn.addEventListener("click", () => {
+
+        announcement.classList.add("hide");
+
+        localStorage.setItem("announcementClosed", "true");
+
+    });
+
+    if (localStorage.getItem("announcementClosed") === "true") {
+
+        announcement.style.display = "none";
+
+    }
+
+}
+
     // Active Page
     const currentPage = window.location.pathname
       .split("/")
