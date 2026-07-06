@@ -334,3 +334,167 @@ body{
     color:#222;
 
 }
+
+.belief-section{
+
+    padding:120px 0;
+
+}
+
+.belief-header{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.belief-header h2{
+
+    font-family:"Newsreader", serif;
+
+    font-size:56px;
+
+    font-weight:400;
+
+    color:#111;
+
+    margin-bottom:18px;
+
+}
+
+.belief-header p{
+
+    font-size:22px;
+
+    color:#666;
+
+}
+
+.belief-cards{
+
+    display:flex;
+
+    gap:28px;
+
+}
+
+.belief-card{
+
+    flex:1;
+
+    border:1px solid #E6E6E6;
+
+    border-radius:18px;
+
+    padding:34px;
+
+    background:#fff;
+
+    transition:.3s;
+
+}
+
+.belief-card.active-Blue:hover{
+
+    background:#2458E8;
+
+    border-color:#2458E8;
+
+    color:white;
+
+    color:white;
+
+}
+
+.belief-card.active-Black:hover{
+
+    background:#454442;
+
+    border-color:#454442;
+
+    color:white;
+
+    color:white;
+
+}
+
+.belief-card.active-Green:hover{
+
+    background:#5f9b81;
+
+    border-color:#5f9b81;
+
+    color:white;
+
+    color:white;
+
+}
+
+.belief-icon{
+
+    width:62px;
+
+    height:62px;
+
+    border-radius:16px;
+
+    background:#F4F1ED;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:90px;
+
+}
+
+.belief-icon img{
+
+    width:28px;
+
+}
+
+.active-icon{
+
+    background:#ebf2fd;
+
+}
+
+.green{
+
+    background:#E8FAF2;
+
+}
+
+.belief-card h3{
+
+    font-size:30px;
+
+    font-weight:600;
+
+    line-height:1.2;
+
+    margin-bottom:26px;
+
+}
+
+.belief-card p{
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    /* color:#666; */
+
+}
+
+/* .belief-card.active h3:hover,
+
+.belief-card.active p:hover{
+
+    color:white;
+
+} */
