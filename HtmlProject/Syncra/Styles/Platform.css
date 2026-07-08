@@ -624,15 +624,15 @@ body{
 }
 
 .card:first-child:hover{
- background-color: #f4a016;
+ background-color: #b59c7a;
 }
 
 .card:nth-child(2):hover{
-  background-color: green;
+  background-color: #2c6b4f;
 }
 
 .card:last-child:hover{
-  background-color: #c53535;
+  background-color: #b96e6a;
 }
 
 .playbook-section{
