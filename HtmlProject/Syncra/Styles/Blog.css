@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    color:#111;
+}
+
+.blog-hero{
+
+    padding:100px 0;
+
+}
+
+.blog-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    margin-bottom:55px;
+
+}
+
+.blog-title{
+
+    max-width:650px;
+
+}
+
+.blog-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    padding:8px 14px;
+
+    border-radius:999px;
+
+    background:#EEF3FF;
+
+    color:#2458E8;
+
+    font-size:12px;
+
+    margin-bottom:22px;
+
+}
+
+.blog-badge img{
+
+    width:15px;
+
+}
+
+.blog-title h1{
+
+    font-family:"Newsreader",serif;
+
+    font-size:96px;
+
+    font-weight:400;
+
+    line-height:1;
+
+    margin-bottom:18px;
+
+}
+
+.blog-line{
+
+    width:120px;
+
+    height:4px;
+
+    background:#2458E8;
+
+    border-radius:20px;
+
+}
+
+.blog-description{
+
+    max-width:420px;
+
+}
+
+.blog-description p{
+
+    font-size:25px;
+
+    color:#555;
+
+    line-height:1.8;
+
+}
+
+.blog-categories{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-bottom:50px;
+
+}
+
+.blog-categories button{
+
+    padding:12px 18px;
+
+    border:1px solid #E5E5E5;
+
+    border-radius:12px;
+
+    background:white;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    font-size:15px;
+
+}
+
+.blog-categories button:hover{
+
+    border-color:#2458E8;
+
+    color:#2458E8;
+
+}
+
+.blog-categories .active{
+
+    background:#2458E8;
+
+    color:white;
+
+    border-color:#2458E8;
+
+}
+
+.featured-post{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:45px;
+
+    align-items:center;
+
+}
+
+.featured-image img{
+
+    width:100%;
+
+    height:700px;
+
+    object-fit:cover;
+
+    border-radius:18px;
+
+}
+
+.post-category{
+
+    color:#2458E8;
+
+    font-size:14px;
+
+    letter-spacing:1px;
+
+    font-weight:600;
+
+}
+
+.featured-content h2{
+
+    margin:18px 0 28px;
+
+    font-family:"Newsreader",serif;
+
+    font-size:68px;
+
+    font-weight:400;
+
+    line-height:1.08;
+
+}
+
+.featured-content p{
+
+    font-size:24px;
+
+    line-height:1.8;
+
+    color:#555;
+
+    margin-bottom:40px;
+
+}
+
+.post-author{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.post-author strong{
+
+    font-size:22px;
+
+}
+
+.post-author span{
+
+    color:#777;
+
+    font-size:17px;
+
+}
